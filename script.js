@@ -5,14 +5,14 @@ var genBtn = document.querySelector("#generate");
 var psswrdCharacters =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()+-_";
 // Password length
-var passwordLength = Number(prompt("Enter desired password length (8 - 128 characters)"));
+var passwordLength = 8;
 var password = "";
 
 // Add event listener to generate button
 genBtn.addEventListener("click", genPassword);
 
 
-// Write function to generate password upond click event
+// Write function to generate password upond click event. This does not satisfy the user story because I have not figured out how to include user inputted prompts to describe length and character inputs.
 
 function genPassword() {
   var psswrdCharacters =
