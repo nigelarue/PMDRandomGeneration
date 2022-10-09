@@ -5,7 +5,7 @@ var genBtn = document.querySelector("#generate");
 var psswrdCharacters =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()+-_";
 // Password length
-var passwordLength = 8;
+var passwordLength = Number(prompt("Enter desired password length (8 - 128 characters)"));
 var password = "";
 
 // Add event listener to generate button
