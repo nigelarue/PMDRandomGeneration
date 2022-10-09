@@ -12,7 +12,7 @@ var password = "";
 genBtn.addEventListener("click", genPassword);
 
 
-// Write function to generate password upond click event
+// Write function to generate password upond click event. This does not satisfy the user story because I have not figured out how to include user inputted prompts to describe length and character inputs.
 
 function genPassword() {
   var psswrdCharacters =
